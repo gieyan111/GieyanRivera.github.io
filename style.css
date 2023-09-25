@@ -1,0 +1,87 @@
+body {
+  color: black;
+  background-color: white;
+  font-family: 'Open Sans', Calibri, sans-serif;
+  margin: 0;
+  background: url("bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  color: white;
+  background-color: steelblue;
+}
+h1 {
+  font-size: 60px;
+  margin: 0;
+  text-align: center;
+}
+nav {
+  justify-content: space-between;
+  background-color: powderblue;
+  box-shadow: 0 0 4px dimgray;
+  padding: 5px;
+  text-align: center;
+  margin: auto;
+  background-color: rgba(173, 216, 230, 0.4);
+}
+nav ul{
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  margin: 0 20px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+nav a {
+  color: white;
+  background-color: transparent;
+}
+nav a:hover {
+  background-color: orange;
+}
+main {
+  border-left: 1px dotted lightgray;
+  border-right: 1px dotted lightgray;
+  margin: 0 10%;
+  padding: 2rem 1rem;
+  font-size: 30px;
+}
+main a {
+  color: royalblue;
+}
+main a:hover {
+  color: dodgerblue;
+}
+main h2 {
+  border-bottom: 1px solid dimgray;
+  font-size: 1.2em;
+  margin: 2em 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+footer {
+  color: dimgray;
+  background-color: lightgray;
+  border-top: 2px solid dimgray;
+  font-size: small;
+  padding: 1em 0;
+  text-align: center;
+}
+footer a {
+  color: black;
+}
+footer a:hover {
+  color: dimgray;
+}
+.hero img{
+  height: 120px;
+  width: 120px;
+  margin-right: 90%;
+  margin-top: 10px;
+  border-radius: 50px;
+}
